@@ -4,4 +4,4 @@
 Implemented with React, Material-UI, React Hooks &
 [edman food api](https://developer.edamam.com/ ) 
 
-Online [Demo](https://cocky-heyrovsky-c3d950.netlify.com/){:target="_blank"}
+Online [Demo](https://cocky-heyrovsky-c3d950.netlify.com/)
