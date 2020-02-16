@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  /* background: rgb(48, 26, 73); */
+  color: #000;
+  font-family: 'Nothing You Could Do', cursive;
+  margin: 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+.header {
+  background-image: url('https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?cs=srgb&dl=burger-and-vegetables-placed-on-brown-wood-surface-1565982.jpg&fm=jpg');
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding: 100px 0;
+  position: relative;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header * {
+  z-index: 1;
+}
+
+.header h1 {
+  margin: 40;
+  font-size: 3.5rem;
+  align-self: center;
+  font-family: Catamaran, sans-serif;
+}
+
+
+.App {
+  min-height: 100vh;
+
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.recipes {
+  padding: 0.2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  margin-top: 20px;
+
+}
